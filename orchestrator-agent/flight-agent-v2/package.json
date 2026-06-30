@@ -1,0 +1,14 @@
+{
+  "name": "flygpt-flight-agent-v2",
+  "version": "2.0.0",
+  "description": "Flight Agent — pure specialist. Talks to Joy Air via MCP, exposes itself via A2A. No longer calls other agents directly. Companion code for lesson 07.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "dotenv": "^16.4.0",
+    "express": "^4.19.0"
+  }
+}
