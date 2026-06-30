@@ -1,0 +1,17 @@
+{
+  "name": "agent-demo",
+  "version": "1.0.0",
+  "description": "Minimal Node.js AI agent demonstrating the tool-calling loop. Companion code for AI Learning.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "keywords": ["ai-agent", "llm", "anthropic", "tool-calling", "agentic-loop"],
+  "license": "MIT",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.39.0",
+    "axios": "^1.7.0"
+  }
+}
