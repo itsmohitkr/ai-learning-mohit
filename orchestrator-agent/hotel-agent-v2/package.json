@@ -1,0 +1,13 @@
+{
+  "name": "flygpt-hotel-agent-v2",
+  "version": "2.0.0",
+  "description": "Hotel Agent — unchanged from lesson 06. Was already a pure A2A specialist; copied here so lesson 07 is self-contained.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.0",
+    "dotenv": "^16.4.0"
+  }
+}
