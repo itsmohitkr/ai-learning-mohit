@@ -1,0 +1,10 @@
+{
+  "mcpServers": [
+    {
+      "name": "joyair",
+      "transport": "stdio",
+      "command": "node",
+      "args": ["./mcp-servers/joyair/server.js"]
+    }
+  ]
+}

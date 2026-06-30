@@ -1,0 +1,5 @@
+{
+  "agents": [
+    { "name": "hotel-agent", "url": "http://localhost:4001" }
+  ]
+}
