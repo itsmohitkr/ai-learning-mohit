@@ -1,0 +1,16 @@
+{
+  "mcpServers": [
+    {
+      "name": "joyair",
+      "transport": "stdio",
+      "command": "node",
+      "args": ["./mcp-servers/joyair/server.js"]
+    },
+    {
+      "name": "draair",
+      "transport": "stdio",
+      "command": "node",
+      "args": ["./mcp-servers/draair/server.js"]
+    }
+  ]
+}
