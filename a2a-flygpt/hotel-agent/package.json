@@ -1,0 +1,13 @@
+{
+  "name": "flygpt-a2a-hotel-agent",
+  "version": "1.0.0",
+  "description": "Hotel Agent — a standalone A2A agent discoverable via /.well-known/agent.json. Companion code for the AI Learning lesson on Agent-to-Agent communication.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.0",
+    "dotenv": "^16.4.0"
+  }
+}
