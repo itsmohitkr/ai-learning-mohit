@@ -1,0 +1,38 @@
+{
+  "name": "rag-assistant",
+  "version": "1.0.0",
+  "description": "Production-ready Retrieval-Augmented Generation (RAG) assistant built with Node.js, Express, LangChain, and PostgreSQL + pgvector. Capstone reference implementation for the LangChain Handbook (Chapters 1-20).",
+  "type": "module",
+  "main": "src/server.js",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "migrate": "node db/migrate.js",
+    "lint": "eslint src",
+    "format": "prettier --write \"src/**/*.js\""
+  },
+  "dependencies": {
+    "@langchain/community": "^0.3.11",
+    "@langchain/core": "^0.3.17",
+    "@langchain/openai": "^0.3.11",
+    "@langchain/textsplitters": "^0.1.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "ioredis": "^5.4.1",
+    "langchain": "^0.3.5",
+    "multer": "^2.2.0",
+    "pdf-parse": "^1.1.1",
+    "pg": "^8.12.0",
+    "pino": "^9.3.2",
+    "pino-http": "^10.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^9.9.0",
+    "nodemon": "^3.1.4",
+    "pino-pretty": "^11.2.2",
+    "prettier": "^3.3.3"
+  }
+}

@@ -1,0 +1,12 @@
+node_modules/
+.env
+uploads/*
+!uploads/.gitkeep
+*.log
+.DS_Store
+
+# Not committed here to avoid transcription risk in the generated
+# repository; run `npm install` after cloning to generate a fresh one
+# from the dependency ranges in package.json (already validated to
+# resolve together - see README).
+package-lock.json
