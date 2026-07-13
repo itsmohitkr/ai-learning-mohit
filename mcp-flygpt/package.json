@@ -1,17 +1,20 @@
 {
   "name": "flygpt-mcp",
-  "version": "1.0.0",
-  "description": "FlyGPT — AI flight booking agent using MCP servers. Companion code for the AI Learning lesson on Model Context Protocol.",
+  "version": "2.0.0",
+  "description": "FlyGPT — AI flight booking agent using MCP servers over HTTP. Companion code for the AI Learning lesson on Model Context Protocol.",
   "main": "server.js",
+  "type": "module",
   "scripts": {
     "start": "node server.js",
-    "dev": "node --watch server.js"
+    "dev": "node --watch server.js",
+    "demo:joyair": "node mcp-servers/joyair/server.js",
+    "demo:draair": "node mcp-servers/draair/server.js"
   },
-  "keywords": ["mcp", "ai-agent", "llm", "anthropic", "model-context-protocol", "express"],
+  "keywords": ["mcp", "ai-agent", "llm", "anthropic", "model-context-protocol", "express", "streamable-http"],
   "license": "MIT",
   "dependencies": {
     "@anthropic-ai/sdk": "^0.39.0",
-    "@modelcontextprotocol/sdk": "^1.0.0",
+    "@modelcontextprotocol/sdk": "^1.10.0",
     "axios": "^1.7.0",
     "dotenv": "^16.4.0",
     "express": "^4.19.0",

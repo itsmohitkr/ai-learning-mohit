@@ -2,15 +2,15 @@
   "mcpServers": [
     {
       "name": "joyair",
-      "transport": "stdio",
-      "command": "node",
-      "args": ["./mcp-servers/joyair/server.js"]
+      "transport": "http",
+      "url": "http://localhost:4001/mcp",
+      "envVarOverride": "JOYAIR_MCP_URL"
     },
     {
       "name": "draair",
-      "transport": "stdio",
-      "command": "node",
-      "args": ["./mcp-servers/draair/server.js"]
+      "transport": "http",
+      "url": "http://localhost:4002/mcp",
+      "envVarOverride": "DRAAIR_MCP_URL"
     }
   ]
 }
