@@ -1,6 +1,0 @@
-{
-  "agents": [
-    { "name": "flight-agent", "url": "http://localhost:4002" },
-    { "name": "hotel-agent",  "url": "http://localhost:4001" }
-  ]
-}
